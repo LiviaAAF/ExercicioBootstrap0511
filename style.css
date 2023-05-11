@@ -1,0 +1,43 @@
+header{
+    height: 80vh;
+    background-image: url('https://picsum.photos/1200/1500');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fs-0{
+    font-size: 60px;
+}
+.text-justify{
+text-align: justify;
+}
+.fs-8{
+    font-size: 17px;
+}
+@media screen and (max-width:1189px){
+
+    .fs-8{
+        font-size: 12.5px;
+    }
+    
+}
+@media screen and (max-width:991px){
+
+    .fs-8{
+        font-size: 12.5px;
+    }
+    .text-invisible{
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px){
+
+    .fs-8{
+        font-size: 15px;
+    }
+    .text-invisible{
+        display: block;
+    }
+}
